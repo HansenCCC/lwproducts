@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../CHHomeDec/CHHomeDec.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../LYGoddess/LYGoddess.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../lwapi/lwapi.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../lwbasic/lwbasic.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:lwlab.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../lwui/lwui.xcodeproj">
+   </FileRef>
+</Workspace>

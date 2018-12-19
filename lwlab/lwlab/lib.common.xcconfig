@@ -1,0 +1,17 @@
+#include "../ios_libs/Release-iphoneos/lwui.framework/all_xcconfig"
+#include "../ios_libs/Release-iphoneos/lwbasic.framework/all_xcconfig"
+#include "../ios_libs/Release-iphoneos/lwapi.framework/all_xcconfig"
+
+//链接参数
+//framework搜索路径
+FRAMEWORK_SEARCH_PATHS_COMMON = $(inherited) $(SRCROOT)/../ios_libs/ThirdFrameworks $(SRCROOT)/../ios_libs/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+
+//链接参数
+OTHER_LDFLAGS_COMMON = $(inherited) -ObjC $(OTHER_LDFLAGS_lwui) $(OTHER_LDFLAGS_lwbasic) $(OTHER_LDFLAGS_lwapi)
+
+//pch预编译头文件
+GCC_PRECOMPILE_PREFIX_HEADER = YES
+GCC_PREFIX_HEADER = lwlab/lwlab-Prefix.pch
+ENABLE_BITCODE = NO
+
+ 

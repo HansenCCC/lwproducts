@@ -1,0 +1,5 @@
+//链接参数
+#include "../lwbasic.framework/all_xcconfig"
+
+OTHER_LDFLAGS_lwui = -framework lwui -ObjC $(OTHER_LDFLAGS_lwbasic)
+

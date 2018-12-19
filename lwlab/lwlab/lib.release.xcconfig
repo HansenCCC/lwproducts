@@ -1,0 +1,6 @@
+#include "lib.common.xcconfig"
+
+//framework搜索路径
+FRAMEWORK_SEARCH_PATHS = $(inherited) $(FRAMEWORK_SEARCH_PATHS_COMMON)
+//链接参数
+OTHER_LDFLAGS = $(OTHER_LDFLAGS_COMMON)

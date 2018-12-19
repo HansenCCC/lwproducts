@@ -1,0 +1,10 @@
+#include "lib.common.xcconfig"
+
+
+//reveal调试工具
+OTHER_LDFLAGS_reveal = -lz -framework Reveal -ObjC
+FRAMEWORK_SEARCH_PATHS_reveal = /Applications/Reveal.app/Contents/SharedSupport/iOS-Libraries
+//framework搜索路径
+FRAMEWORK_SEARCH_PATHS = $(inherited) $(FRAMEWORK_SEARCH_PATHS_COMMON) $(FRAMEWORK_SEARCH_PATHS_reveal)
+//链接参数
+OTHER_LDFLAGS = $(OTHER_LDFLAGS_COMMON) $(OTHER_LDFLAGS_reveal)

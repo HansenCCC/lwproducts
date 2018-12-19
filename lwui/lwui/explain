@@ -1,0 +1,36 @@
+1、适配思想
+通过安全距离来适配iPhone
+
+2、线程 https://www.jianshu.com/p/2d57c72016c6
+同步执行（sync）：
+同步添加任务到指定的队列中，在添加的任务执行结束之前，会一直等待，直到队列里面的任务完成之后再继续执行。
+只能在当前线程中执行任务，不具备开启新线程的能力。
+异步执行（async）：
+异步添加任务到指定的队列中，它不会做任何等待，可以继续执行任务。
+可以在新的线程中执行任务，具备开启新线程的能力。
+
+串行队列（Serial Dispatch Queue）：
+每次只有一个任务被执行。让任务一个接着一个地执行。（只开启一个线程，一个任务执行完毕后，再执行下一个任务）
+并发队列（Concurrent Dispatch Queue）：
+可以让多个任务并发（同时）执行。（可以开启多个线程，并且同时执行任务）
+
+3、给分类添加属性
+/*
+objc_AssociationPolicy参数使用的策略：
+OBJC_ASSOCIATION_ASSIGN;            //assign策略
+OBJC_ASSOCIATION_COPY_NONATOMIC;    //copy策略
+OBJC_ASSOCIATION_RETAIN_NONATOMIC;  // retain策略
+
+OBJC_ASSOCIATION_RETAIN;
+OBJC_ASSOCIATION_COPY;
+*/
+/*
+关联方法：
+objc_setAssociatedObject(id object, const void *key, id value, objc_AssociationPolicy policy);
+
+参数：
+* id object 给哪个对象的属性赋值
+const void *key 属性对应的key
+id value  设置属性值为value
+objc_AssociationPolicy policy  使用的策略，是一个枚举值，和copy，retain，assign是一样的，手机开发一般都选择NONATOMIC
+*/
