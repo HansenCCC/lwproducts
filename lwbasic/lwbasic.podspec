@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "lwbasic"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Class expansion"
   s.description  = "A delightful iOS basic framework."
   s.homepage     = "https://github.com/HersonIQ/lwproducts.git"
