@@ -12,8 +12,9 @@ Pod::Spec.new do |s|
   s.summary      = "Class expansion"
   s.description  = "A delightful iOS basic framework."
   s.homepage     = "https://github.com/HersonIQ/lwproducts.git"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-  s.license = "Copyright (c) 2018年 程恒盛. All rights reserved."
+  #s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #s.license = "Copyright (c) 2018年 程恒盛. All rights reserved."
+  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "程恒盛" => "2534550460@qq.com" }
   s.social_media_url   = "https://www.zhihu.com/people/EngCCC/activities"
   s.platform     = :ios, "8.0"
