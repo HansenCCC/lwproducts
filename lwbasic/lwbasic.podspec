@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = "https://www.zhihu.com/people/EngCCC/activities"
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/HersonIQ/lwproducts.git", :tag => "#{s.version}" }
-
+  s.frameworks = "Foundation","UIKit"
   s.source_files  = "lwbasic/lwbasic/*"
   # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "lwbasic/lwbasic.h"
