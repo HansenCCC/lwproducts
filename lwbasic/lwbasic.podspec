@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/HersonIQ/lwproducts.git", :tag => "#{s.version}" }
 
-  s.source_files  = "lwbasic/*"
+  s.source_files  = "lwbasic/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "lwbasic/lwbasic.h"
 
