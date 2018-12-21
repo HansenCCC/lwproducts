@@ -22,6 +22,7 @@
 
 /* Begin PBXBuildFile section */
 		30195F872054FC4F000213D0 /* lwbasic.h in Headers */ = {isa = PBXBuildFile; fileRef = 30195F852054FC4F000213D0 /* lwbasic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3038D5A521CCD07F00471E25 /* lwbasic.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3038D5A421CCD07F00471E25 /* lwbasic.podspec */; };
 		3077667B20614DB400B28ABC /* NSObject+LWExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 3077667920614DB400B28ABC /* NSObject+LWExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3077667C20614DB400B28ABC /* NSObject+LWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3077667A20614DB400B28ABC /* NSObject+LWExtension.m */; };
 		3077667F2061590000B28ABC /* NSArray+LWExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 3077667D2061590000B28ABC /* NSArray+LWExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,6 +44,7 @@
 		30195F822054FC4F000213D0 /* lwbasic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = lwbasic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30195F852054FC4F000213D0 /* lwbasic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lwbasic.h; sourceTree = "<group>"; };
 		30195F862054FC4F000213D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3038D5A421CCD07F00471E25 /* lwbasic.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lwbasic.podspec; sourceTree = SOURCE_ROOT; };
 		3077667920614DB400B28ABC /* NSObject+LWExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+LWExtension.h"; sourceTree = "<group>"; };
 		3077667A20614DB400B28ABC /* NSObject+LWExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LWExtension.m"; sourceTree = "<group>"; };
 		3077667D2061590000B28ABC /* NSArray+LWExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+LWExtension.h"; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		30195F842054FC4F000213D0 /* lwbasic */ = {
 			isa = PBXGroup;
 			children = (
+				3038D5A421CCD07F00471E25 /* lwbasic.podspec */,
 				30195F852054FC4F000213D0 /* lwbasic.h */,
 				30F9FD02205BB6E800D03776 /* all_xcconfig */,
 				30F9FD6E205BCF9C00D03776 /* extension */,
@@ -218,6 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3038D5A521CCD07F00471E25 /* lwbasic.podspec in Resources */,
 				30F9FD31205BB8CA00D03776 /* all_xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

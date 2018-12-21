@@ -21,7 +21,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/HersonIQ/lwproducts.git", :tag => "#{s.version}" }
   s.frameworks = "Foundation","UIKit"
   #s.source_files  = "lwbasic/lwbasic/*"
-  s.source_files  =  "lwbasic","*.{h,m}" 
+  s.source_files  =  "lwbasic/*","lwbasic/lwbasic/*.{h,m}","lwbasic/**/*"
+
   # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "lwbasic/lwbasic.h"
 
